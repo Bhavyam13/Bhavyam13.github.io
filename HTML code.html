@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<META charset="UTF=8">
+<title>My First Website - Bhavyam</title>
+
+<style>
+body{Font-Family:Calibri}
+#us {text-align:center}
+hr, h2{color:blue}
+Header {
+	padding: 20px;
+	text-align: left;
+	background: #000000;
+	color: white;
+  	font-size: 15px;
+	word-spacing: 10px;
+}
+Footer {
+	padding: 20px;
+	text-align: left;
+	background: #000000;
+	color: white;
+  	font-size: 15px;
+	word-spacing: 10px;
+}
+a{
+	color:white; 
+	text-Decoration: none;
+}
+code{background:#D0CECE}
+table, th, td {
+  border: 1px solid;
+}
+</style>
+</head>
+
+<body>
+<!-- Header -->
+<Header>
+	<h1><img src ="Images/logo.jpg"></img></h1>
+	<nav><a href ="Index.html">Home |</a>
+	<a href = "Friends.html"> Friends |</a>
+	<a href = "HTML code.html"> HTML |</a>
+	<a href = "About Me.html"> About me |</a>
+	<a href = "Contact Me.html"> Contact Me</a></nav>
+</Header>
+<h1 style="color:black;"><a href="#lesson1" style="color:black;">lesson 1 </a> | <a href="#lesson2" style="color:black;">lesson 2 </a> | <a href="#lesson3" style="color:black;">lesson 3 </a> | <a href="#lesson4" style="color:black;">lesson 4 </a> | <a href="#lesson5" style="color:black;">lesson 5 </a></h1>
+
+<h1 id="lesson1">Lesson - 1 <br> Marking Up Text</h1>
+
+<h2>1.PARAGRAPHS</h2>
+<p>code: <code> &lt;p&gt; People should pursue what they're passionate about... &lt;/p&gt; </code></p>
+
+<p>Example: People should pursue what they're passionate about. That will make them happier than pretty much anything else.</p>
+
+<hr>
+
+<h2>2.HEADINGS</h2>
+<h3>code: <code> &lt;h3&gt; People should pursue what they're passionate about... &lt;/h3&gt; </h3>
+
+<h3>Example: People should pursue what they're passionate about. That will make them happier than pretty much anything else.</h3>
+
+<hr>
+
+<h2>3.THEMATIC BREAKS (HORIZONTAL RULE)</h2>
+<p>code: <code> &lt;hr&gt; </code></p>
+
+<hr style=color:black>
+
+<hr>
+
+<h2>4.LISTS</h2>
+
+<h3>1.Unordered Lists</h3>
+<p>code: <code> &lt;ul&gt; <br>
+&lt;li&gt; Futurist extraordinaire &lt;/li&gt; <br>
+&lt;li&gt; Tesla Motors, electric car &lt;/li&gt; <br>
+&lt;li&gt; SpaceX, Falcon rocket &lt;/li&gt; ... <br>
+&lt;/ul&gt; </code></p>
+
+<ul>
+<p>Example:</p> 
+<li>Futurist extraordinaire</li>
+<li>Tesla Motors, electric car</li>
+<li>SpaceX, Falcon rocket</li>
+<li>X.com (PayPal) e-payments</li>
+<li>Hyperloop</li>
+</ul>
+
+<hr style=color:black>
+
+<h3>2.Ordered Lists</h3>
+<p>code: <code> &lt;ol&gt; <br>
+&lt;li&gt; SpaceX &lt;/li&gt; <br>
+&lt;li&gt; The Boring Company &lt;/li&gt; <br>
+&lt;li&gt; Neuralink Corporation &lt;/li&gt; ... <br>
+&lt;/ol&gt; </code></p>
+
+<ol>
+<p>Example:</p> 
+<li>SpaceX</li>
+<li>The Boring Company</li>
+<li>Neuralink Corporation</li>
+<li>Zip2</li>
+<li>OpenAI</li>
+<li>Tesla</li>
+<li>SolarCity </li>
+<li>PayPal</li>
+</ol>
+
+<hr style=color:black>
+
+<h3>3.Description Lists</h3>
+<p>code: <code> &lt;dl&gt; <br>
+&lt;dt&gt; SpaceX &lt;/dt&gt; <br>
+&lt;dd&gt; To reduce the cost of space exploration, Musk created SpaceX in 2002. &lt;/dd&gt; <br>
+
+<br>
+
+&lt;dt&gt; The Boring Company &lt;/dt&gt; <br>
+&lt;dd&gt; Musk founded American construction company The Boring Company in 2016. &lt;/dd&gt; <br>
+
+<br>
+
+&lt;dt&gt; Neuralink Corporation &lt;/dt&gt; ... <br>
+&lt;dd&gt; Musk is also the owner and co-founder of Neuralink Corporation, a neurotechnology company &lt;/dd&gt; 
+&lt;/dl&gt; </code></p>
+
+<dl>
+<p>Example:</p> 
+<dt>SpaceX</dt>
+<dd>To reduce the cost of space exploration, Musk created SpaceX in 2002.</dd><br>
+
+<dt>The Boring Company</dt>
+<dd>Musk founded American construction company The Boring Company in 2016.</dd><br>
+
+<dt>Neuralink Corporation</dt>
+<dd>Musk is also the owner and co-founder of Neuralink Corporation, a neurotechnology company</dd><br>
+
+<dt>Zip2</dt>
+<dd>Although Zip2 is no longer in business, it was the first enterprise Musk founded back in 1995.</dd>
+</dl>
+
+<hr>
+
+<h2>4.Long Quotations</h2>
+<p>code: <code> &lt;blockquote&gt; People should pursue what they're passionate about... &lt;/blockquote&gt; </code></p>
+
+<p>Example: The Greatest entrepreneur of the era Elon Musk once said <blockquote>People should pursue what they're passionate about. That will make them happier than pretty much anything else.</blockquote></p>
+
+<hr>
+
+<h2>5.Preformatted Text</h2>
+<p>code: <code> &lt;pre&gt; <pre>People	should pursue what they		're passionate about...</pre> &lt;/pre&gt; </code></p>
+
+<p>Example:<pre>People	should 
+pursue what they		're passionate about
+		That will make them happier than pretty 		much anything else</pre></p>
+
+<hr>
+
+<h2>6.Figures</h2>
+<p>code: <code> &lt;figure&gt; &lt;img src=... alt = "Elon musk image"&gt; &lt;/img&gt; <br>
+&lt;figcaption&gt; Elon musk image &lt;/figcaption&gt; &lt;/figure&gt; 
+</p>
+
+<p>Example: <figure>
+<img src = "Images/Elon-Musk.webp" alt = "Elon musk image" height = "300" width = "600">
+<figcaption>Elon musk in front of tesla factory</figcaption>
+</figure>
+</p>
+
+<hr>
+
+<h2>7.Main Content</h2>
+<p>code: <code> &lt;main&gt; People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/main&gt; 
+</p>
+
+<p>Example: <main>People should pursue what they're passionate about That will make them happier than pretty much anything else</main>
+(will not make any visual changes, main element helps screen readers and other assistive technologies know where the main content of the page begins)
+</p>
+
+<hr>
+
+<h2>8.Headers</h2>
+<p>code: <code> &lt;Header&gt; 
+&lt;img src ="Images/logo.jpg"&gt; &lt;/img&gt; 
+&lt;/Header&gt; 
+</p>
+
+<p>Example: <header>
+<h1><img src ="Images/logo.jpg"></img></h1>
+</header>
+(you can further add your own content)
+</p>
+
+<hr>
+
+<h2>9.Footers</h2>
+<p>code: <code> &lt;footer&gt; 
+<small>Copyright &copy;2022	Bhavyam sancheti </small>
+&lt;/footer&gt; 
+</p>
+
+<p>Example: <footer>
+<small>Copyright &copy;2022	Bhavyam sancheti </small>
+</footer>
+(you can further add your own content)
+</p>
+
+<hr>
+
+<h2>10.Sections and Articles</h2>
+<p>code: <code> &lt;section id="section1"&gt; 
+&lt;article&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/article&gt; 
+&lt;/section&gt; 
+</p>
+
+<p>Example: <section id= "section1">
+<article>People should pursue what they're passionate about That will make them happier than pretty much anything else</article>
+</section>
+(To divide long web documents into thematic sections, use the aptly named section element. Sections typically include a heading (inside the section element) plus content that has a meaningful reason to be grouped together.)
+</p>
+
+<hr>
+
+<h2>11.Aside (Sidebars)</h2>
+<p>code: <code> &lt;aside&gt; 
+Elon Musk created and sold a video game to a magazine when he was 12 years old. ‘Blastar,’ a space fighting game, was sold for $500 to PC and Office Technology magazine. Musk also worked for ‘Rocket Science,’ a gaming start-up...
+&lt;/aside&gt; 
+</p>
+
+<p>Example: <aside>
+Elon Musk created and sold a video game to a magazine when he was 12 years old. ‘Blastar,’ a space fighting game, was sold for $500 to PC and Office Technology magazine. Musk also worked for ‘Rocket Science,’ a gaming start-up.<br>
+
+<br>
+
+According to Ashlee Vance, author of Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future, Musk almost sold Tesla to Google for $11 billion in 2013. Tesla’s future looked bleak at the time, so Musk approached Larry Page, Google’s co-founder and CEO, for a takeover. Musk proposed that Google purchase Tesla for $6 billion, with Musk promising to invest another $5 billion in factory expansion. Musk also demanded that Page hand over control of Tesla to him for the next eight years. The deal came to a halt at the eleventh hour when the sales of Model S, an all-electric five-door liftback produced by Tesla, Inc began to pick up. Tesla is expected to be worth around $100 billion by 2020.<br>
+
+<br>
+
+Musk’s first business venture was the founding of Zip2, a company that provided newspapers with maps and business directories and was later sold to Compaq for $307 million.
+(you need Style Sheet to format it like sidebars)
+</aside>
+</p>
+
+<hr>
+
+<h2>12.Navigation</h2>
+<p>code: <code> &lt;nav&gt; 
+&lt;a href = "Index.html"&gt; Home &lt;/a&gt; 
+	&lt;a href = "Friends.html"&gt; Friends &lt;/a&gt; 
+	&lt;a href = "HTML code.html"&gt; HTML &lt;/a&gt; 
+&lt;/nav&gt; 
+</p>
+
+<p>Example: <a href ="Index.html" style=color:black; text-Decoration: none;>Home |</a>
+<a href = "Friends.html" style=color:black; text-Decoration: none; word-spacing: 10px;> Friends |</a>
+<a href = "HTML code.html" style=color:black; text-Decoration: none; word-spacing: 10px;> HTML |</a>
+<a href = "About Me.html" style=color:black; text-Decoration: none;  word-spacing: 10px;> About me |</a>
+<a href = "Contact Me.html" style=color:black; text-Decoration: none; word-spacing: 10px;> Contact Me</a> </nav>
+</p>
+
+<hr>
+
+<h2>13.Addresses</h2>
+<p>code: <code> &lt;address&gt; 
+contributed by:- Bhavyam sancheti
+&lt;/address&gt; 
+</p>
+
+<p>Example:<address> contributed by:- Bhavyam sancheti </address>
+</p>
+
+<hr>
+
+<h2>14.Emphasized text</h2>
+<p>code: <code> &lt;em&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/em&gt; 
+</p>
+
+<p>Example:<em> People should pursue what they're passionate about That will make them happier than pretty much anything else <br>
+(Screen readers may use a different tone of voice to convey
+stressed content, which is why you should use an em element only when it
+makes sense semantically, not just to achieve italic text.)</em>
+</p>
+
+<hr>
+
+<h2>15.Important text</h2>
+<p>code: <code> &lt;Strong&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/strong&gt; 
+</p>
+
+<p>Example:<strong> People should pursue what they're passionate about That will make them happier than pretty much anything else <br>
+(Screen readers may use a different tone of voice to convey
+stressed content, which is why you should use a strong element only when it
+makes sense semantically, not just to achieve italic text.)</strong>
+</p>
+
+<hr>
+
+<h2>16.b</h2>
+<p>code: <code> &lt;b&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/b&gt; 
+</p>
+
+<p>Example:<b> People should pursue what they're passionate about That will make them happier than pretty much anything else </b>
+</p>
+
+<hr>
+
+<h2>17.i</h2>
+<p>code: <code> &lt;i&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+&lt;/i&gt; 
+</p>
+
+<p>Example:<i> People should pursue what they're passionate about That will make them happier than pretty much anything else </i>
+</p>
+
+<hr>
+
+<h2>18.s</h2>
+<p>code: <code> &lt;s&gt; 
+Warren buffet &lt;/s&gt; Elon musk :People should pursue what they're passionate about That will make them happier than pretty much anything else
+</p>
+
+<p>Example:<s> Warren buffet </s> Elon musk :People should pursue what they're passionate about That will make them happier than pretty much anything else
+</p>
+
+<hr>
+
+<h2>19.u</h2>
+<p>code: <code> &lt;u&gt; 
+Elon musk
+&lt;/u&gt; 
+People should pursue what they're passionate about That will make them happier than pretty much anything else
+</p>
+
+<p>Example:<u> Elon musk </u>:People should pursue what they're passionate about That will make them happier than pretty much anything else
+</p>
+
+<hr>
+
+<h2>20.small</h2>
+<p>code: <code> &lt;small&gt; 
+Copyright &copy;2022	Bhavyam sancheti 
+&lt;/small&gt; 
+</p>
+
+<p>Example:<small> Copyright &copy;2022		Bhavyam sancheti </small>
+</p>
+
+<hr>
+
+<h2>21.Short quotations</h2>
+<p>code: <code> The Greatest entrepreneur of the era Elon Musk once said
+&lt;q&gt; 
+People should pursue what they're passionate about. That will make them happier than pretty much anything else.
+&lt;/q&gt; 
+</p>
+
+<p>Example: The Greatest entrepreneur of the era Elon Musk once said  <q> People should pursue what they're passionate about. That will make them happier than pretty much anything else. </q>
+</p>
+
+<hr>
+
+<h2>22.Abbreviations and acronyms</h2>
+<p>code: <code> 
+&lt;abbr title="Elon Musk"&gt; 
+EM
+&lt;/abbr&gt; 
+</p>
+
+<p>Example: <abbr title="Elon Musk"> EM </abbr></p>
+
+<hr>
+
+<h2>23.Citations</h2>
+<p>code: <code> Elon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and spacecraft... <br>
+&lt;cite&gt; https://www.britannica.com/biography/Elon-Musk &lt;/cite&gt; 
+</p>
+
+<p>Example: Elon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric car manufacturer Tesla. <br>
+by <cite> https://www.britannica.com/biography/Elon-Musk </cite>  
+</p>
+
+<hr>
+
+<h2>24.Defining terms</h2>
+<p>code: <code> Elon Reeve Musk FRS (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a &lt;dfn&gt; business magnate &lt;/dfn&gt; and investor...
+</p>
+
+<p>Example:Elon Reeve Musk FRS (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a <dfn> business magnate </dfn> and investor. He is the founder, CEO, and Chief Engineer at SpaceX; angel investor, CEO, and product architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. With an estimated net worth of around US$262 billion as of September 10, 2022, Musk is the wealthiest person in the world according to both the Bloomberg Billionaires Index and Forbes' real-time billionaires list. </p>
+
+<hr>
+
+<h2>25.Code</h2>
+<p>code: <code> &lt;code&gt; <br>
+Private Sub Command1_click()<br>
+Label1.Visible=false ...<br>
+End sub
+<br>
+ &lt;/code&gt; 
+</p>
+
+<p>Example: <code>Private Sub Command1_click()<br>
+Label1.Visible=false<br>
+Label2.Visible=True<br>
+Text1.Text="You are correct!"<br>
+End sub
+</code></p>
+
+<hr>
+
+<h2>26.Subscript</h2>
+<p>code: <code> H &lt;sub&gt; 2 &lt;/sub&gt; 0
+</p>
+<p>Example:H<sub>2</sub>0 </p>
+
+<hr>
+
+<h2>27.Superscript</h2>
+<p>code: <code> E=MC &lt;sup&gt; 2 &lt;/sup&gt; 
+</p>
+
+<p>Example: E=MC<sup>2</sup> </p>
+
+<hr>
+
+<h2>28.Highlighted text</h2>
+<p>code: <code> The Greatest entrepreneur of the era &lt;mark&gt; Elon Musk &lt;/mark&gt; once said
+</p>
+
+<p>Example: The Greatest entrepreneur of the era <mark>Elon Musk</mark> once said</p>
+
+<hr>
+
+<h2>29.Dates and times</h2>
+<p>code: <code> &lt;time datetime="15:54"&gt; 03:54 &lt;/time&gt; 
+</p>
+
+<p>Example: <time datetime="15:54"> 03:54 </time>(The time element allows us to mark up dates and times in a way that is comfortable for a human to read, but also encoded in a standardized way that computers can use. Datetime attribute presents the same information in a machine-readable way.</p>
+
+<hr>
+
+<h2>30.Machine-readable information</h2>
+<p>code: <code> &lt;data value="23"&gt; Twenty-Three &lt;/data&gt; 
+</p>
+
+<p>Example: <data value="23"> Twenty-Three </data>(The data element is another tool for helping computers make sense of content. It can be used for all sorts of data, including dates, times, measurements,weights, microdata, and so on. The required value attribute provides the machine-readable information.)</p>
+
+<hr>
+
+<h2>31.Inserted and deleted text</h2>
+<p>code: <code> &lt;del&gt; Gouri &lt;/del&gt; &lt;ins&gt; Bhavyam &lt;/ins&gt; is good at studies
+</p>
+
+<p>Example: <del> Gouri </del><ins> Bhavyam </ins>is good at studies </p>
+
+<hr>
+
+<h2>32.Line breaks</h2>
+<p>code: <code> Here is how a line break &lt;br&gt; works
+</p>
+
+<p>Example: Here is how a line break <br> works</p>
+
+<hr>
+
+<h2>33.Word breaks</h2>
+<p>code: <code> PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicrosopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis...
+</p>
+
+<p>Example: PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscop<Wbr>icsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis</p>
+
+<hr>
+
+<h2>34.Escape Characters</h2>
+
+<p>Example: <img src="images/Charecter_Escape.JPG" height="300" width="600"> <img src="images/Charecter_Escape1.JPG" height="300" width="600"></p>
+
+<h2>So this rounds up the lesson - 1. Hope you enjoyed it!! &#128512;
+<hr style=color:red>
+
+<h1 id = "lesson2">Lesson - 2 <br> ADDING LINKS</h1>
+
+<h2>1.Anchor element (hypertext link)</h2>
+<p>code: <code> &lt;a href="https://www.lamborghini.com/en-en"&gt; lamborghini &lt;/a&gt; </code></p>
+
+<p>Example:<a href="https://www.lamborghini.com/en-en" style=color:blue;> lamborghini </a> (To make a selection of text a link, simply wrap it in opening and closing
+<a>...</a> tags and use the href attribute to provide the URL of the target
+page.) </p>
+
+<hr>
+
+<h2>2.THE HREF ATTRIBUTE</h2>
+
+<p>You’ll need to tell the browser which document to link to, right? The href
+(hypertext reference) attribute provides the address of the page or resource
+(its URL) to the browser. The URL must always appear in quotation marks.
+<br>
+<br>
+There are two ways to specify the URL:<br><br>
+Absolute URLs:<br>
+Absolute URLs provide the full URL for the document, including the
+protocol (http:// or https://), the domain name, and the pathname as
+necessary. You need to use an absolute URL when pointing to a document
+out on the web (i.e., not on your own server)<br><br>
+
+Relative URLs:<br>
+Relative URLs describe the pathname to a file relative to the current
+document. Relative URLs can be used when you are linking to another
+document on your own site (i.e., on the same server). It doesn’t require the
+protocol or domain name—just the pathname
+<br>
+<img src="images/link_structure.JPG" height="300" width="600">
+</p>
+
+<hr>
+
+<h2>3.Linking Within a Directory</h2>
+<p>code: <code> &lt;a href ="Index.html"&gt; home &lt;/a&gt; </code></p>
+
+<p>Example:<a href ="Index.html" style=color:blue;>home</a></p>
+
+<hr>
+
+<h2>4.Linking to a Lower Directory</h2>
+<p>code: <code> &lt;a href ="Images/link_structure.JPG"&gt; structure &lt;/a&gt; </code></p>
+
+<p>Example:<a href ="Images/link_structure.JPG" style=color:blue;>structure</a>(and it goes on and on)</p>
+
+<hr>
+
+<h2>5.Linking to a Higher Directory</h2>
+
+<p>Example:(In Unix, there is a pathname convention just for this purpose, the “dot-dotslash” (../). When you begin a pathname with ../, it’s the same as telling the browser “back up one directory level” and then follow the path to the specified file.)<br>(Can you guess how you’d back your way out of two directory levels? Simple: just use the dot-dot-slash twice)</p>
+
+<hr>
+
+<h2>6.MAIL LINKS</h2>
+<p>code: <code> &lt;a href ="mailto:Random@example.com"&gt; random guy &lt;/a&gt; </code></p>
+
+<p>Example:<a href="mailto:random@example.com" style=color:blue;>random guy</a></p>
+
+<hr>
+
+<h2>7.TELEPHONE LINKS</h2>
+<p>code: <code> &lt;a href="+91-466-773-1188"&gt; Call &lt;/a&gt; </code></p>
+
+<p>Example:<a href="+91-466-773-1188" style=color:blue;>Call</a></p>
+
+<h2>So this rounds up the lesson - 2. Hope you enjoyed it!! &#128512;
+<hr style=color:red>
+
+<h1 id="lesson3">Lesson-3 <br> ADDING IMAGES</h1>
+
+<h2>1.THE IMG ELEMENT</h2>
+<p>code: <code> &lt;img src="images/girl.jpg alt="girl" height="200" width="400"&gt; </code></p>
+
+<p>Example:<img src="images/girl.jpg" alt="girl" width="200" height="400"></p>
+
+<hr>
+
+<h2>2.Providing the Location with src</h2>
+<p>code: <code>src="URL"</p>
+
+<p>Example:The value of the src attribute is the URL of the image file. In most cases, the images you use on your pages will reside on your own server, so you will use relative URLs to point to them.</p>
+
+<hr>
+
+<h2>3.Providing Alternative Text with alt</h2>
+<p>code: <code> alt="text"</p>
+
+<p>Example:Every img element must also contain an alt attribute that provides a text alternative to the image for those who are not able to see it. Alternative text (also called alt text) should serve as a substitute for the image content—conveying the same information and function. Alternative text is used by screen readers, search engines, and graphical browsers when the image doesn’t load</p>
+
+<hr>
+
+<h2>4.Providing the Dimensions with width and height</h2>
+<p>code: <code>width="number" & height="number" </p>
+
+<p>Example:The width and height attributes indicate the dimensions of the image in number of pixels. Browsers use the specified dimensions to hold the right amount of space in the layout while the images are loading rather than
+reconstructing the page each time a new image arrives, resulting in faster
+page display. If only one dimension is set, the image will scale proportionally.</p>
+
+<hr>
+
+<h2>5.ADDING SVG IMAGES</h2>
+<p>code: <code>&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180"&gt; <br>
+&lt;rect width="120" height="40" fill="purple" rx="20" ry="20"/&gt; <br>
+&lt;text x="30" y="30" fill="yellow" font-family="'Verdana-Bold'"
+font-size="36"&gt; <br>
+hello!<br>
+&lt;/text&gt; <br>
+&lt;/svg&gt; 
+</p>
+
+<p>Example:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
+<rect width="120" height="40" fill="purple" rx="20" ry="20"/>
+<text x="30" y="30" fill="yellow" font-family="'Verdana-Bold'"
+font-size="36">
+hello!
+</text>
+</svg></p>
+
+<hr>
+
+<h2>6.Embedded with the img Element</h2>
+<p>code: <code>&lt;img src="images/bill_gates.svg" width="200" height="304"&gt; 
+</p>
+
+<p>Example:<img src="Images/bill_gates.svg" width="200" height="304"></p>
+
+<hr>
+
+<h2>7.Inline in the HTML Source</h2>
+<p>code: <code>&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="100" height="100"&gt; <br>
+&lt;circle fill="#D4AB00" cx="36" cy="36" r="36"/&gt; <br>
+&lt;circle opacity=".7" fill="#FFF" stroke="#8A291C" cx="36.1" cy="35.9"
+r="31.2"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="38.8" cy="13.5" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="22.4" cy="20.9" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="32" cy="37.2" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="16.6" cy="39.9" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="26.2" cy="53.3" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="42.5" cy="27.3" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="44.3" cy="55.2" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="54.7" cy="42.9" r="4.8"/&gt; <br>
+&lt;circle fill="#A52C1B" cx="56" cy="28.3" r="4.8"/&gt; <br>
+&lt;/svg&gt; 
+</p>
+
+<p>Example:This summer, try making pizza
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="100"
+height="100">
+<circle fill="#D4AB00" cx="36" cy="36" r="36"/>
+<circle opacity=".7" fill="#FFF" stroke="#8A291C" cx="36.1" cy="35.9"
+r="31.2"/>
+<circle fill="#A52C1B" cx="38.8" cy="13.5" r="4.8"/>
+<circle fill="#A52C1B" cx="22.4" cy="20.9" r="4.8"/>
+<circle fill="#A52C1B" cx="32" cy="37.2" r="4.8"/>
+<circle fill="#A52C1B" cx="16.6" cy="39.9" r="4.8"/>
+<circle fill="#A52C1B" cx="26.2" cy="53.3" r="4.8"/>
+<circle fill="#A52C1B" cx="42.5" cy="27.3" r="4.8"/>
+<circle fill="#A52C1B" cx="44.3" cy="55.2" r="4.8"/>
+<circle fill="#A52C1B" cx="54.7" cy="42.9" r="4.8"/>
+<circle fill="#A52C1B" cx="56" cy="28.3" r="4.8"/>
+</svg>
+on your grill.</p>
+
+<hr>
+
+<h2>7.Embedded with the object Element</h2>
+<p>code: <code>&lt;object type="image/svg+xml" data="Images/bill_gates.svg"&gt; 
+&lt;img src="images/pizza.webp" alt="pizza"&gt; 
+&lt;/object&gt; 
+</p>
+
+<p>Example: <object type="image/svg+xml" data="Images/bill_gates.svg">
+<img src="images/pizza.webp" alt="pizza">
+</object></p>
+
+
+<h2>So this rounds up the lesson - 3. Hope you enjoyed it!! &#128512;
+<hr style=color:red>
+
+<h1 id="lesson4">Lesson-4 <br> TABLE MARKUP</h1>
+
+<h2>1.Column Spans</h2>
+<p>code: <code>&lt;table&gt; <br><br>
+
+<mark> &lt;thead&gt; </mark>
+&lt;tr&gt; <br>
+&lt;th&gt; &lt;/th&gt; <br>
+&lt;th colspan="2"  <mark>scope="row"</mark>&gt; Value &lt;/th&gt; <br>
+&lt;th colspan="2"&gt; Profit &lt;/th&gt; <br>
+&lt;/tr&gt; <br><br>
+
+&lt;tr&gt; <br>
+<mark>&lt;colgroup span="5"&gt</mark>
+<mark>&lt;col class="start"&gt</mark>
+&lt;<mark>th id="Company_name"</mark>&gt; Company Name &lt;/th&gt; <br>
+&lt;th&gt; Value At Cost &lt;/th&gt; <br>
+&lt;th&gt; Value At Market Price &lt;/th&gt; <br>
+&lt;th&gt; Realized Profit / Loss &lt;/th&gt; <br>
+&lt;th&gt; Unrealized Profit / Loss &lt;/th&gt; <br>
+<mark>&lt;col class="end"&gt</mark>
+<mark>&lt;/colgroup&gt;</mark>
+&lt;/tr&gt; <br>
+<mark> &lt;/thead&gt; </mark><br><br>
+
+<mark> &lt;tbody&gt; </mark>
+&lt;tr&gt; <br>
+&lt;<mark>td headers="Company_name"</mark>&gt; A &lt;/td&gt; <br>
+&lt;td&gt; 7,865 &lt;/td&gt; <br>
+&lt;td&gt; 8,096 &lt;/td&gt; <br>
+&lt;td&gt; 14 &lt;/td&gt; <br>
+&lt;td&gt; 14 &lt;/td&gt; <br>
+&lt;/tr&gt; ...<br>
+<mark> &lt;thead&gt; </mark><br><br>
+
+&lt;/table&gt; </code></p>
+
+<mark>Scope:(Accessibility experts recommend that every th element contain a scope attribute to make its associated data explicitly clear)<br>Headers:(For really complicated tables in which scope is not sufficient to associate a table data cell with its respective header such as when the table contains multiple spanned cells, the headers attribute is used in the td element to explicitly tie it to a header’s id value.Unfortunately, support of the id/headers feature is unreliable. The recommended best practice is to create tables in a way that a simple scope attribute will do the job.)<br>thead,tbody:(You can describe rows or groups of rows as belonging to a header, footer, or the body of a table by using the thead, tfoot, and tbody elements, respectively.Some user agents (another word for a browser) may repeat the header and footer rows on tables that span multiple pages. For example, the head and foot rows may print on every page of a multipage table. Authors may also use these elements to apply styles to various regions of a table.)<br>Colgroup:(Column groups are identified at the start of the table, just after the caption if there is one, and they give the browser a little heads-up as to the column arrangement in the table. The number of columns a colgroup represents is specified with the span attribute.)<br>col:(That’s all there is to it. If you need to access individual columns within a colgroup
+for scripting or styling, identify them with col elements.)</mark>
+
+<p>Exapmle:<table>
+<tr>
+<th> </th>
+<th colspan="2">Value</th>
+<th colspan="2">Profit</th>
+</tr>
+
+<tr>
+<th>Company Name</th>
+<th>Value At Cost</th>
+<th>Value At Market Price</th>
+<th>Realized Profit / Loss</th>
+<th>Unrealized Profit / Loss</th>
+</tr>
+
+<tr>
+<td>A</td>
+<td>7,865</td>
+<td>8,096</td>
+<td>14</td>
+<td>14</td>
+</tr>
+
+<tr>
+<td>B</td>
+<td>9,213</td>
+<td>7,132</td>
+<td>14</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>C</td>
+<td>5,591</td>
+<td>5,487</td>
+<td>19</td>
+<td>13</td>
+</tr>
+
+<tr>
+<td> </td>
+<td>22,669</td>
+<td>20,715</td>
+<td>47</td>
+<td>42</td>
+</tr>
+</table>
+
+Example 2:<table>
+<tr>
+<th>Sun</th>
+<td>Breakfast</td>
+<td>Lunch</td>
+<td>Dinner</td>
+</tr>
+
+<tr>
+<th>Mon</th>
+<td>Breakfast</td>
+<td colspan="2">Dinner</td>
+</tr>
+
+<tr>
+<th>Tue</th>
+<td colspan="2">Breakfast</td>
+<td>Dinner</td>
+</tr>
+
+</table>
+(borders will only appear when you insert CSS. I will cover it later)</p>
+
+<hr>
+
+<h2>2.Row Spans & Describing Table Content</h2>
+<p>code: <code>&lt;table&gt; <br>
+&lt;caption&gt; Fruit chat &lt;/caption&gt;<br>
+
+&lt;tr&gt; <br>
+&lt;td&gt; Apples &lt;/td&gt; <br>
+&lt;td rowspan="3"&gt; Orange &lt;/td&gt; <br>
+&lt;td&gt; Pears &lt;/td&gt; <br>
+&lt;/tr&gt; <br><br>
+
+&lt;tr&gt; <br>
+&lt;td&gt; Bananas &lt;/td&gt; <br>
+&lt;td rowspan="2"&gt; Pineapple &lt;/td&gt; <br>
+&lt;/tr&gt; <br><br>
+
+&lt;tr&gt; <br>
+&lt;td&gt; Lychees &lt;/td&gt; <br>
+&lt;/tr&gt; <br><br>
+
+&lt;/table&gt; </code></p>
+
+<p>Exapmle:<table>
+<caption> Fruit chat </caption>
+
+<tr>
+<td>Apples</td>
+<td rowspan="3">Oranges</td>
+<td>Pears</td>
+</tr>
+
+<tr>
+<td>Bananas</td>
+<td  rowspan="2">Pineapple</td>
+</tr>
+
+<tr>
+<td>Lychees</td>
+</tr>
+
+</table>
+
+<h2>So this rounds up the lesson - 4. Hope you enjoyed it!! &#128512;
+<hr style=color:red>
+
+<h1 id="lesson5">Lesson-5 <br> EMBEDDED MEDIA</h1>
+
+<h2>1.WINDOW-IN-A-WINDOW (IFRAME)</h2>
+<p>code: <code> &lt;iframe src="https://www.edclub.com/" height="300" width="400"&gt;<br>
+Fallback mechanism &lt;a href="https://www.screener.in/"&gt;<br>
+&lt;/iframe&gt; </code></p>
+
+<p>Example:<iframe src="https://www.edclub.com/" height="300" width="400>
+Fallback mechanism <a href="https://www.screener.in/" style="color:blue ; text-Decoration:underline">
+</iframe> </p>
+
+<hr>
+
+<h2>2.MULTIPURPOSE EMBEDDER (OBJECT)</h2>
+<p>code: <code> &lt;object data="images/learn Python RIGHT NOW.mp4" type="video/mp4"&gt;<br>
+&lt;param name="autostart" value="true"&gt;<br>
+&lt;param name="controller" value="true"&gt;<br>
+&lt;/object&gt; </code></p>
+
+<p>Example:<object data="images/learn Python RIGHT NOW.mp4" type="video/mp4">
+Your browser does not support HTML5 video. Get the <param name="autostart" value="true">
+<param name="controller" value="true">
+</object>
+</p>
+
+<hr>
+
+<h2>3.Adding a Video to a Page</h2>
+<p>code: <code> &lt;video src="images/learn Python RIGHT NOW.mp4" width="640" height="480" controls autoplay&gt;<br>
+&lt;/video&gt; </code></p>
+
+<p>Example:<video src="images/learn Python RIGHT NOW.mp4" width="640" height="480" controls autoplay>
+</video>
+</p>
+
+<hr>
+
+<h2>4.Providing video format options</h2>
+<p>code: <code> &lt;video src="images/learn Python RIGHT NOW.mp4" width="640" height="480" poster="highlight_still.jpg" controls autoplay&gt;<br>
+&lt;/video&gt; </code></p>
+
+<p>Example:<video src="images/learn Python RIGHT NOW.mp4" width="640" height="480"
+poster="highlight_still.jpg" controls autoplay>
+</video>
+</p>
+
+<hr>
+
+<h2>5.Adding Audio to a Page</h2>
+<p>code: <code> &lt;audio id="windmills" controls &gt;<br>
+&lt;source src="windtunnel.ogg" type="audio/ogg"&gt; <br>
+&lt;/audio&gt; </code></p>
+
+<p>Example:<audio id="windtunnel" controls preload="auto">
+<source src="images/windtunnel.ogg" type="audio/ogg">
+</audio>
+</p>
+
+<h2>So this rounds up the lesson - 5. Hope you enjoyed it!! &#128512;
+<hr style=color:red>
+</body>
+</html>
